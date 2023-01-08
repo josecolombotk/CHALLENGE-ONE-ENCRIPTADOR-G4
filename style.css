@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Consolas&display=swap');
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Consolas', cursive;
+}
+
+.img {
+    background-image: url("https://i.pinimg.com/originals/28/4d/05/284d05a918afb1176507464be672c488.gif");
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);   
+    z-index: -100;  
+    background-size: cover;
+  }
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+}
+
+.right{
+    float: right;
+    border-radius: 24px;
+    width: 30%;
+    height: auto;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+
+}
+
+.left_button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    font-size:larger;
+    color: aqua;
+
+}
+
+.img_alura{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+    border-radius: 24px;
+}
+
+.tittle{
+    float: inherit;
+    margin-left: 15%;
+}
+
+.text_input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+
+}
+
+#imgmunieco{
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+    background-color: transparent;
+}
+
+#texto1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+
+}
+
+#btn_encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+
+
+}
+
+#btn_desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+
+
+}
+
+#btn_copiado{
+    margin-left: 36%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background-color: transparent;
+    border-radius: 24px;
+    display: none;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+
+}
+
+.footer {
+    position:static;
+    text-align: center;
+    color: rgb(1, 6, 10);
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 30px;
+    background-color: transparent;
+    font-family: 'Consolas', cursive;
+    color: aqua;
+
+}

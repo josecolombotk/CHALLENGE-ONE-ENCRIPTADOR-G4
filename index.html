@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    ><link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChallengeEncriptador</title>
+</head>
+
+<body>
+    <div class="container" >
+       <p class="img"></p>
+        <div class="logo">
+            <img class="img_alura" src="imagenes/logoalura.png" alt="">
+            <h1 class="tittle" >Encriptador de texto</h1>
+        </div>
+
+        <div class="right">
+            <img src="imagenes/Muñeco.png" id="imgmunieco">
+            <h1 id="texto1">Ningun mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name" rows="8" cols="80"></textarea>
+            <button id="btn_copiado" type="button" onclick="copiar()">COPIAR</button>
+        </div>   
+
+        <div class="left">
+            <input id="input_texto" class="text_input" type="text" placeholder="ingrese el texto aqui">
+        </div>
+
+        <div class="left_button">
+            <p>⚠ Solo minusculas y sin acentos</p>
+            <button  type="button" id="btn_encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn_desencriptar"  onclick="desencriptar()">Desencriptar</button>
+        </div>
+       
+    </div>
+
+    <footer class="footer" >
+        <h2> Realizado por Jose Luis Colombo para ORACLE+ALURA LATAM</h2>
+    </footer>
+
+<script type="text/javascript" src="script.js" ></script>
+
+</body>
+
+</html>
